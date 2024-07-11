@@ -7,35 +7,17 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "local",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
 				"outputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myNumber",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -55,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"localVariables.sol": "LocalVariables"
+			"globalVariables.sol": "GlobalVariables"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -69,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"localVariables.sol": {
-			"keccak256": "0xbb1023ba39fcfe7ea4de488aa39d4b761c54bfae39ba5faafd6f3b82330144f3",
+		"globalVariables.sol": {
+			"keccak256": "0x5aab32af76ef41063d482ba28e6baee0314e04721f04bbc79b3dc0f227eb9c31",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://adf17716edce0205d4861270d43d35af155a80e3e9716c9a6d19a6665941035b",
-				"dweb:/ipfs/QmbGocJHpVt4eksKDmVsoh6xzaSAdUNjQYsYVY4wQC5PGS"
+				"bzz-raw://24c9f51cea85c3ca5c86dde6433f6ada88b6381fdff9a1c54367689595eb83d2",
+				"dweb:/ipfs/QmSUXLe6KUpYfMH2Fc1yCH9GVqYTBeUV54vDofcxw6xnoh"
 			]
 		}
 	},

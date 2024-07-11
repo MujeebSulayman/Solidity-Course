@@ -3,4 +3,8 @@ pragma solidity 0.8.13;
 
 contract GlobalVariables {
     address public owner;
+
+    constructor() {
+        owner = msg.sender;
+    }
 }
