@@ -37,12 +37,12 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "product",
+						"name": "",
 						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "total",
+						"name": "",
 						"type": "uint256"
 					}
 				],
@@ -78,11 +78,11 @@
 	},
 	"sources": {
 		"view.sol": {
-			"keccak256": "0x1a1e3a8bd056a95a0b2d1ab9383a93d36c897e4ec3495e984682c67db71e033f",
+			"keccak256": "0x04dd9d56f5f21756157ba9fd26c9f45d8107a8530312e526c2c7a224897362f7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://48334ad8c6a8200104be491af9333d4548d2c3cab48ef834d12ae9fe0ae8b8a2",
-				"dweb:/ipfs/QmWVeLepnsDEYWa9VrgUveUVGfxkxVB8k8wbp7YL4fa6Mo"
+				"bzz-raw://bed6f25c3ab6313396a23583fa80c86bcc95197362dbe815fb82d404d1466455",
+				"dweb:/ipfs/QmchLA8gXc4F31iL73YUVKAPADsG4Ra7TByF8FiK8Fib5b"
 			]
 		}
 	},
