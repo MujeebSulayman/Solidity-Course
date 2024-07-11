@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.12+commit.f00d7308"
+		"version": "0.8.13+commit.abaa5c0e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"localVariables.sol": "Name"
+			"stateVariables.sol": "StateV"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"localVariables.sol": {
-			"keccak256": "0x5267701b1b71238b564faca41bc435f0cf6b66889d63e9ac584120fd1e911ecc",
+		"stateVariables.sol": {
+			"keccak256": "0xee7a8eba85639e85a7300028079787669f7ece1883bd4ce937d263921fe3a0f7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8bf71d286e5de834ea6fbc736d8df634567bcc913633f8f172fbe893dbcf38ae",
-				"dweb:/ipfs/QmdNUsm591xZ9j3x4FJSJCKV4588B44uk7cqTez6hSrEhJ"
+				"bzz-raw://0d56cdfe2cbd03e1eed56e3c3ebbf9ad6c86f05c55240c32db4b3d4fc07b5995",
+				"dweb:/ipfs/QmbBnTEGCq5sNVd7oUCvpxn1YkoC9mX8vUPayQE1LHYXb7"
 			]
 		}
 	},
