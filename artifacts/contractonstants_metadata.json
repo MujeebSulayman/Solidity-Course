@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myAdd",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"constant.sol": "Name"
+			"constant.sol": "contractonstants"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"constant.sol": {
-			"keccak256": "0x05c9383d61c0a62e6f1e4b0e5d69658bf75328c545105369ee906afc92aa9dee",
+			"keccak256": "0xf3530d6590392287450e43650da974e6df84e34ecffd03153b3752d68265575c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a32ded9dc8083b9ffc4a39d59ef689ce6b0313cdcd65ea6ce9a31785ec0a6c2b",
-				"dweb:/ipfs/QmSYmJRvj9Z1SEhbKi27FsXNLFrH7YjSGaTgj6fHtR3k4K"
+				"bzz-raw://46359323215d96e91a26494e9eef47b65dc005627d886a323f5f9989492aad92",
+				"dweb:/ipfs/Qmbx8qGbygxtanLsFfkPT3BAji7CD2oywowYfUcjtMHZGp"
 			]
 		}
 	},
