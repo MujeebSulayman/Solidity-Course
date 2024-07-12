@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"forLoop.sol": "Name"
+			"whileLoop.sol": "Whi"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"forLoop.sol": {
-			"keccak256": "0x9e250dd0802a1b71c6dd4e6982b99d8d8cc012655a6a04af023f96d323119e3b",
+		"whileLoop.sol": {
+			"keccak256": "0x3629cf03eda70a5684aea4724ab0b42288c1dbb67869dca974be30052256cc75",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://da1ce35cb1a2b7a0c2e6e78a1e2059c21ee8d329a1058691c9b6e3a0a8412438",
-				"dweb:/ipfs/Qmeu7EUPbkM41AEcjUn3UfzjyYTtGhdDvf9KUTN7qV4qa2"
+				"bzz-raw://1ad9d839054b5d094536c06ca089740a9d04e79eeb81184365fe03d746af5826",
+				"dweb:/ipfs/QmcGgEsmaHjQgLfJn67ikqWFCyxZorK2Nhv6uqwsVna46U"
 			]
 		}
 	},

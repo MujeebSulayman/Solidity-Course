@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"forLoop.sol": "Name"
+			"forLoop.sol": "ForLoo"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"forLoop.sol": {
-			"keccak256": "0x9e250dd0802a1b71c6dd4e6982b99d8d8cc012655a6a04af023f96d323119e3b",
+			"keccak256": "0xa66bd4051b5c52810ef9c12b4ef1d6a2b974d62389e35ba31a7f79dc666d6b8d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://da1ce35cb1a2b7a0c2e6e78a1e2059c21ee8d329a1058691c9b6e3a0a8412438",
-				"dweb:/ipfs/Qmeu7EUPbkM41AEcjUn3UfzjyYTtGhdDvf9KUTN7qV4qa2"
+				"bzz-raw://1f512863dc96a6f8b69db9f6bb28f7be8060f18c3d5bf38623d4817540156dba",
+				"dweb:/ipfs/QmR9jgi8LM5w3WcyMNbmV68yfvB2WK875eiu6vSpp92q8Z"
 			]
 		}
 	},
