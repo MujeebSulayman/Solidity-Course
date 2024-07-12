@@ -9,13 +9,15 @@ contract IfElse {
         if (num == 5) {
             myString = "You are correct";
         } else {
-            myString = "Not 5";
+            myString = "Wrong";
         }
+
+        return myString;
     }
 
     //SHORTHAND fORMAT
 
-    function shorthandGet(uint256 num) public returns(string memory) {
+    function shorthandGet(uint256 num) public returns (string memory) {
         myString = num == 5 ? "You are correct" : "You are wrong";
         return myString;
     }
