@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"require.sol": "Name"
+			"require.sol": "Requ"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"require.sol": {
-			"keccak256": "0x2d8a7b019b7396e0684a7abb872e4703a1b96b5c844aa199a40426a9eb547199",
+			"keccak256": "0x0812aaba7a4bdd380269a9252a657b599a24de249a69f70e8e92c3cb6cb02c0f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fc8e51b3e99df5b799ccdc79e251d3568c4fdbf18569b3ba48c428be6352f2c4",
-				"dweb:/ipfs/QmeBobNNAHurVC956bzmAUNBuZ5fRUHuTEdKpu5efpVrgh"
+				"bzz-raw://26eceadd3d3ec83d03bb3b79ced298833772bed43724d70db199bb9b8413648e",
+				"dweb:/ipfs/QmetkVKxbSdvSxQ6gWdDgu58cAMX4YTKm79p8CRfMhMdXJ"
 			]
 		}
 	},
