@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"modifier.sol": "Name"
+			"modifier.sol": "Modi"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"modifier.sol": {
-			"keccak256": "0x9e250dd0802a1b71c6dd4e6982b99d8d8cc012655a6a04af023f96d323119e3b",
+			"keccak256": "0xd3a0e180812f77f2821484ec22010b00ad920c1b234b8dbb3c646fcd3a27634f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://da1ce35cb1a2b7a0c2e6e78a1e2059c21ee8d329a1058691c9b6e3a0a8412438",
-				"dweb:/ipfs/Qmeu7EUPbkM41AEcjUn3UfzjyYTtGhdDvf9KUTN7qV4qa2"
+				"bzz-raw://e07233058ea62f2556e505c68d635585bad6c104d71963f232c2b76ccf0d5388",
+				"dweb:/ipfs/QmZhd7Xt2N7DjGnwNobQCQsjYyyLb4Q13EVW8xQzbYSmmv"
 			]
 		}
 	},

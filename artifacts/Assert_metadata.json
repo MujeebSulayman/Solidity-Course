@@ -9,11 +9,23 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "input",
+						"name": "num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2",
 						"type": "uint256"
 					}
 				],
-				"name": "checkInput",
+				"name": "checkOverflow",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getResult",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -21,7 +33,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -38,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"require.sol": "Require"
+			"assert.sol": "Assert"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -52,12 +64,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"require.sol": {
-			"keccak256": "0x31931393a23bb035744ad83d78ce72e784bd85186a26d5f7fdf2be62c1730d5d",
+		"assert.sol": {
+			"keccak256": "0xe9d314729d49496ed1ad3a806e31d6babb63be8276df7c1dc6ed33e1f5b05a95",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4a38511321045759631360c6b60655af9cff4294a87691e497d0e5d881fadd0b",
-				"dweb:/ipfs/QmPHSTnxoxHqKrVDVoYhuD3wDHnCkorgFsZQQR47RvsEE8"
+				"bzz-raw://9be092587818ee90fd1623cc04e4c6fe5e11280893015057b0b3f113f36e5880",
+				"dweb:/ipfs/QmW8KJTDyiAKFpzcW6Y9dspChyUmuGR4BkS68GbRLky8sg"
 			]
 		}
 	},

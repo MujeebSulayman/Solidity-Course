@@ -11,4 +11,6 @@ contract Require {
 
     return "Input is uint8";
     }
+
+    
 }

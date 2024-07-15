@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"modifier.sol": "Name"
+			"assert.sol": "Asse"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"modifier.sol": {
-			"keccak256": "0x9e250dd0802a1b71c6dd4e6982b99d8d8cc012655a6a04af023f96d323119e3b",
+		"assert.sol": {
+			"keccak256": "0x1add120336fc2b8809ac9cd277ca5815f5467760aacf6476fbfc229d9172be3f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://da1ce35cb1a2b7a0c2e6e78a1e2059c21ee8d329a1058691c9b6e3a0a8412438",
-				"dweb:/ipfs/Qmeu7EUPbkM41AEcjUn3UfzjyYTtGhdDvf9KUTN7qV4qa2"
+				"bzz-raw://24080cb6190b5b43f94b012976d97af4139e4401639c6f3ed48d002b19f3a90a",
+				"dweb:/ipfs/QmcDdUr5g5sw2gPBLh8guQtCjZT5Js2vcLJLgaBiPvS81o"
 			]
 		}
 	},
