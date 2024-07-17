@@ -3,8 +3,7 @@ pragma solidity 0.8.13;
 
 contract Modifier {
     address public owner;
-    uint256 public x =10;
-    bool public locked;
+    
 
     constructor() {
         owner = msg.sender;
@@ -15,26 +14,12 @@ contract Modifier {
         _;
     }
 
-    modifier validateData (address _addr){
-            require(_addr != address(0), "Not a valid address" );
-            _;
-    }
-
-    function changeOwner(address _newOwner) public onlyOwner validateData (_newOwner) {
-        owner = _newOwner;
-    }
-
-    modifier noReentrancy(){
-        require(!locked, "No Reentancy");
-        locked = true;
+    modifier validateDate(address addr){
+        require(addr != address(0), "Not valid Address");
         _;
-        locked = false;
     }
 
-    function decreament(uint256 i) public noReentrancy {
-        x -= 1;
-        if ( i > 1) {
-            decreament(i - 1);
-        }
+    function changeOwner(address newOwner) public onlyOwner validateDate (newOwner){
+        owner = newOwner;
     }
 }

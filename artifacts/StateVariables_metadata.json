@@ -6,45 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "myNum",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myState",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_text",
+						"name": "Name",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_no",
+						"name": "Age",
 						"type": "uint256"
 					}
 				],
-				"name": "update",
+				"name": "GetData",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -78,11 +52,11 @@
 	},
 	"sources": {
 		"stateVariables.sol": {
-			"keccak256": "0x785ee87eb94c58bda5a3127a302f4611062dfaff4c0c098eb0acdc8a69ed6ef7",
+			"keccak256": "0xb008db9a81cc75d33ed415d8df01367a9c6f2e3dd9a8bec4c973f0ed03b771ff",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://93b01f711db939053da81f5014508df4cad96cf85ea0c36542dbbe5d2f58cd8d",
-				"dweb:/ipfs/QmfZ4tFkhfo45TmosLfy7iAWUN4HZSUSDuNWdDnR6C13rq"
+				"bzz-raw://ad51a0c3cc36849a42791f3697fcc23c0cfc4c185a59a6d8ef61945844db7cd8",
+				"dweb:/ipfs/QmeyEvxN5Xh7PKc8bmkbJGQi35GsZLHkqYGakxjKfG4xsj"
 			]
 		}
 	},

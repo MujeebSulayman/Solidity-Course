@@ -7,30 +7,45 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "newOwner",
-						"type": "address"
-					}
-				],
-				"name": "changeOwner",
+				"name": "cancel",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "get",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "enum Enum.Status",
 						"name": "",
-						"type": "address"
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Enum.Status",
+						"name": "newStatus",
+						"type": "uint8"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Status",
+						"name": "",
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -50,7 +65,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"modifier.sol": "Modifier"
+			"enum.sol": "Enum"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -64,12 +79,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"modifier.sol": {
-			"keccak256": "0xf99cfa03dd4796e4486531338f83f71b4ce43e697a70aed7da906b693dc90464",
+		"enum.sol": {
+			"keccak256": "0xec04d69d6e6ae09d070a1b35d7b84052fcba991aea9fd3400471b0d4c7b4ef7a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2d1001b655f8a7b9914c0730164447d50ca3fcb5002be56357781079e63ee42a",
-				"dweb:/ipfs/QmPg9HtRvyWUtghPVzKTsb2axyE6ntx6nLmJ2RBuZeyFhw"
+				"bzz-raw://f02020232c4dd577c38c6b4c3eca89ec48c234a43b493d0b3c293a7f0f170c37",
+				"dweb:/ipfs/QmPFuYuKkAGbnYsJrMhzC1jz8JJRA3QpbXJ9vj2hNvqiQ7"
 			]
 		}
 	},
