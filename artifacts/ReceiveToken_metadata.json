@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "walletBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sendEther.sol": "ReceiveToken"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sendEther.sol": {
+			"keccak256": "0x4dfe150f600bbd43965416e5c0db6e26e867331e9ad82828d45501f76d338d91",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://df0bcf5c2eae2740dd4c4730f2d83df39cd4b23a2a1f8d289c3de25b3a50db40",
+				"dweb:/ipfs/QmVEi2x7cMFb3UhLTRWAkEaNquTcpEToKkMYnjDJVq4ovn"
+			]
+		}
+	},
+	"version": 1
+}

@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"sendEther.sol": "Name"
+			"sendEther.sol": "Recei"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"sendEther.sol": {
-			"keccak256": "0x4350d7e8f4a2d30fb1bc94c2cfc318f249a315f224f10964eed7e1421f7c6fd9",
+			"keccak256": "0xbb5a4a36a5371e2f18fa395bcde0ad0a1b91633373a4c33e3350c19e177b45a9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2d98dc89412ba736fc7dcd352bc4bdb4dc2952b3b86487f5968cb54d6489a81c",
-				"dweb:/ipfs/QmUZCE4FUjD7psQqMeWnXHT7cw9jP7oTw1URp8tSm8gjfZ"
+				"bzz-raw://7923a8518d4fc5303c878bed2ebd86ab72d7e5d800660b0ad2e82a9366d734f2",
+				"dweb:/ipfs/QmV6shyQKKXs38wBhuMx8FB1ae58Jq5hYssRB4kaH9DZpU"
 			]
 		}
 	},

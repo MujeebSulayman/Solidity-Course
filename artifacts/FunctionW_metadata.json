@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"sendEther.sol": "Name"
+			"functionWays.sol": "FunctionW"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"sendEther.sol": {
-			"keccak256": "0x4350d7e8f4a2d30fb1bc94c2cfc318f249a315f224f10964eed7e1421f7c6fd9",
+		"functionWays.sol": {
+			"keccak256": "0x01b0ca334cdb5a86db251cb3f1a21694ac9f19eab2c83188c278088d67903869",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2d98dc89412ba736fc7dcd352bc4bdb4dc2952b3b86487f5968cb54d6489a81c",
-				"dweb:/ipfs/QmUZCE4FUjD7psQqMeWnXHT7cw9jP7oTw1URp8tSm8gjfZ"
+				"bzz-raw://b8e543a2c06e667be41b28b23db12ef4cb59c034bd5611bea6621de7b2e2e844",
+				"dweb:/ipfs/QmW2on3qaxFxeErFjBqhxb2DurRoyU2Xqx9pEdXdANWbVF"
 			]
 		}
 	},
