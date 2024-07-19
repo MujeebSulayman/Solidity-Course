@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "fallback"
 			},
@@ -20,6 +25,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -55,11 +67,11 @@
 	},
 	"sources": {
 		"sendEther.sol": {
-			"keccak256": "0x4dfe150f600bbd43965416e5c0db6e26e867331e9ad82828d45501f76d338d91",
+			"keccak256": "0x936e02801448e51ae2468715d577c8cb7cacc46b6faa3f2de298a52496d9f99d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://df0bcf5c2eae2740dd4c4730f2d83df39cd4b23a2a1f8d289c3de25b3a50db40",
-				"dweb:/ipfs/QmVEi2x7cMFb3UhLTRWAkEaNquTcpEToKkMYnjDJVq4ovn"
+				"bzz-raw://8882ee43fed3642effe1046a0f103f18c209f3dad5e50c9ba356935f82c95509",
+				"dweb:/ipfs/QmT2REvnesqDCsgBeSxy1GswANxU1uCtd1HERnv8hWbinT"
 			]
 		}
 	},

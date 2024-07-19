@@ -5,7 +5,7 @@ contract Payable {
     address payable public owner;
 
     constructor() payable  {
-        owner == payable(msg.sender);
+        owner = payable(msg.sender);
     }
 
     function deposit() public payable {}

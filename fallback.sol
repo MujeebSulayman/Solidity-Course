@@ -13,7 +13,7 @@ contract Fallback {
         emit Log("receive", gasleft());
      }
 
-     function getBalance() public payable returns  (uint) {
+     function getBalance() public payable returns (uint) {
         address(this).balance;
      }
 }

@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"sendEther.sol": "Name"
+			"callingContractMethods.sol": "Name"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"sendEther.sol": {
-			"keccak256": "0x4350d7e8f4a2d30fb1bc94c2cfc318f249a315f224f10964eed7e1421f7c6fd9",
+		"callingContractMethods.sol": {
+			"keccak256": "0x9e250dd0802a1b71c6dd4e6982b99d8d8cc012655a6a04af023f96d323119e3b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2d98dc89412ba736fc7dcd352bc4bdb4dc2952b3b86487f5968cb54d6489a81c",
-				"dweb:/ipfs/QmUZCE4FUjD7psQqMeWnXHT7cw9jP7oTw1URp8tSm8gjfZ"
+				"bzz-raw://da1ce35cb1a2b7a0c2e6e78a1e2059c21ee8d329a1058691c9b6e3a0a8412438",
+				"dweb:/ipfs/Qmeu7EUPbkM41AEcjUn3UfzjyYTtGhdDvf9KUTN7qV4qa2"
 			]
 		}
 	},

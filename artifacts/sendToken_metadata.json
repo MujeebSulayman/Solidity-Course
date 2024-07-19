@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"sendEther.sol": {
-			"keccak256": "0x4dfe150f600bbd43965416e5c0db6e26e867331e9ad82828d45501f76d338d91",
+			"keccak256": "0x550a9302ba045984b0913448aedb677a7d3adb7a3a88ed0c159d896660d43945",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://df0bcf5c2eae2740dd4c4730f2d83df39cd4b23a2a1f8d289c3de25b3a50db40",
-				"dweb:/ipfs/QmVEi2x7cMFb3UhLTRWAkEaNquTcpEToKkMYnjDJVq4ovn"
+				"bzz-raw://f863d0b393939e4551545d2f0c6797eee0973dea81adbd82b1e0b29d5ce2a6d1",
+				"dweb:/ipfs/QmcjXBZ9nsY7oxP9FFqCfsms7ke99GvdfVXjjC62WKoeJm"
 			]
 		}
 	},
