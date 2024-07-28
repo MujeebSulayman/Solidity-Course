@@ -169,8 +169,17 @@
 			}
 		],
 		"devdoc": {
+			"details": "A simple contract where players deposit Ether to reach certain milestones and earn rewards.",
 			"kind": "dev",
-			"methods": {},
+			"methods": {
+				"claimReward()": {
+					"details": "Allows a player to claim their reward after the final milestone is reached. Emits a {RewardClaimed} event."
+				},
+				"play()": {
+					"details": "Allows a player to play the game by depositing exactly 0.5 Ether. If the deposited amount reaches any of the milestones, the player is credited with the respective reward. Emits a {GamePlayed} event."
+				}
+			},
+			"title": "CheckpointGame",
 			"version": 1
 		},
 		"userdoc": {
@@ -196,11 +205,11 @@
 	},
 	"sources": {
 		"checkpointGame.sol": {
-			"keccak256": "0x9e676689ea1b02a0941a377d8d6371195a798a9b84e86ac575aa3665a4ae2ef1",
+			"keccak256": "0xdb02c0b133b0656b2db78df1b5c51c4461a712f6186bc81982f1988646c6655d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c17fd3faab524966bec06d0690bf0587179e55e8946dfcec06c202831612fbf0",
-				"dweb:/ipfs/QmavQRMwBuueZNizFqbRdE2TxtSxBYtBVMWrSHwhKb9FaN"
+				"bzz-raw://9abf48921c8b37333a0ef9b3bcb595d6ea96da7c2d3afc82994d1ff50704102a",
+				"dweb:/ipfs/QmR9A7wGKWjjM9TMPs4Yc5TxRHS2M4ugC7VnXqVBa58XXo"
 			]
 		}
 	},
