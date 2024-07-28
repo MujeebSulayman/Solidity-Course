@@ -8,8 +8,8 @@ contract Mapping {
 
 
     // How to get mapped Address
-    function get(address addr) public view returns(uint) {
-        return myMap[addr];
+    function get(address _addr) public view returns(uint) {
+        return myMap[_addr];
     }
 
 

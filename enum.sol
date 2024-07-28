@@ -18,12 +18,12 @@ pragma solidity 0.8.13;
     }
 
 
-            //How to update status
-    function set(Status newStatus) public  {
+        //How to update status
+    function set(Status newStatus) public {
         status = newStatus;
     }
 
-            //You can also update to a specific enum lie this
+        //You can also update to a specific enum lie this
     function cancel() public  {
         status = Status.Cancelled;
     }
